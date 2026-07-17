@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Expression Example</title>
+</head>
+<body>
+
+<h2>Expression Example</h2>
+
+<button onclick="show()">Show</button>
+
+<p id="result"></p>
+
+<script>
+// Function Expression
+const sayHello = function() {
+    return "Hello World";
+};
+
+function show() {
+    document.getElementById("result").innerHTML = sayHello();
+}
+</script>
+
+</body>
+</html>

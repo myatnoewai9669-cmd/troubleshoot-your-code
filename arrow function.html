@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Arrow Function Example</title>
+</head>
+<body>
+
+<h2>Arrow Function Example</h2>
+
+<button onclick="showGreeting()">Greet</button>
+
+<p id="result"></p>
+
+<script>
+// Arrow Function
+const greet = (name) => {
+    return "Hello " + name;
+};
+
+function showGreeting() {
+    document.getElementById("result").innerHTML = greet("Citra");
+}
+</script>
+
+</body>
+</html>
